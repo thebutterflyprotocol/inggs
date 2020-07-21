@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Tristan B. Kildaire"
+	],
+	"copyright": "Copyright © 2020, Tristan B. Kildaire",
+	"dependencies": {
+		"libutterfly": "~>0.0.18",
+		"vibe-d": "~>0.8.6"
+	},
+	"description": "Web-mail client for butterfly",
+	"license": "AGPL v3.0",
+	"name": "inggs"
+}

@@ -6,8 +6,12 @@ void main()
 {
 	writeln("Starting Inggs - Butterfly webmail server");
 
+	URLRouter router = new URLRouter();
 
-vibe.vibe
+	router.get("/", &login);
+
+	/* TODO: Attach router */
+
 	writeln("Starting vibe event loop...");
 	runApplication();
 }

@@ -1,6 +1,13 @@
 import std.stdio;
+import views;
+import vibe.vibe;
 
 void main()
 {
-	writeln("Edit source/app.d to start your project.");
+	writeln("Starting Inggs - Butterfly webmail server");
+
+
+vibe.vibe
+	writeln("Starting vibe event loop...");
+	runApplication();
 }

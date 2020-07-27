@@ -12,7 +12,7 @@ void main()
 
 	/* Setup the HTTP server */
 	HTTPServerSettings serverSettings = new HTTPServerSettings();
-	serverSettings.port = 4445;
+	serverSettings.port = 4444;
 	serverSettings.bindAddresses = ["0.0.0.0", "::"];
 
 	/* Attach the HTTP server's settings and the route handler */

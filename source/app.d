@@ -11,8 +11,8 @@ void main()
 	router.get("/", &login);
 
 	/* Setup the HTTP server */
-	HTTPServerSettings serverSettings;
-	serverSettings.port = 8080;
+	HTTPServerSettings serverSettings = new HTTPServerSettings();
+	serverSettings.port = 2222;
 	serverSettings.bindAddresses = ["0.0.0.0", "::"];
 
 	/* Attach the HTTP server's settings and the route handler */

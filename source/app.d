@@ -1,6 +1,7 @@
 import std.stdio;
 import views;
 import vibe.vibe;
+import libutterfly.client;
 
 void main()
 {
